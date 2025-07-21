@@ -14,3 +14,6 @@ export default function NavLink(props: NavLinkProps) {
     </button>
   )
 }
+
+// type NavbarProps = {
+  
