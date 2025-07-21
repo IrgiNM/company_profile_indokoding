@@ -1,7 +1,7 @@
 export function BookOnline() {
     return (
         <>
-        <div className="flex flex-col min-h-screen gap-2 pl-160">
+        <div className="flex flex-col min-h-screen gap-2 mt-20 pl-130">
             <h1 className="text-5xl font-extrabold text-[#00466C]">BOOK ONLINE</h1>
             <p className="font-semibold text-[#00466C]">Free Online Consultation</p>
             <p className="text-[#00466C] tracking-wide custom-word-spacing">1hr Consultation | Skype or email at <br></br> info@indokoding.com</p>

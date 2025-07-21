@@ -55,7 +55,7 @@ export default function Service() {
   return (
     <>
     <div className='flex flex-col items-center min-h-screen gap-2 mt-10'>
-        <p className='text-[16px]'>what we do</p>
+        <p className='mt-25 text-[16px]'>what we do</p>
         <h1 className='text-2xl text-[28px] font-extrabold tracking-wider text-[#005CB2]'>Our Services</h1>
         <div className='flex flex-row items-start justify-center gap-15 w-full p-5'>
             {services.map((service) => (
