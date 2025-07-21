@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-purple-900 text-white py-6">
+    <footer className="bg-purple-900 text-white py-6 px-75">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-start">
         {/* Logo dan Deskripsi */}
         <div className="mb-6 md:mb-0">
