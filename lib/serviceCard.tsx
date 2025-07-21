@@ -1,0 +1,14 @@
+import { Service } from "@/type";
+
+export function ServiceCard(props: Service) {
+    console.log(props.id);
+    return (
+        <>
+            <div className={`w-72 flex flex-col justify-center items-center gap-4 p-4  `}>
+                <h1 className={`text-lg font-bold text-[22px] ${props.warna}`}>{props.title}</h1>
+                <p className='w-full text-justify text-[20px]'>{props.description}</p>
+            </div>
+            
+        </>
+    )
+}
