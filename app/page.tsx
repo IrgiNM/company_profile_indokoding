@@ -10,7 +10,7 @@ import Footer from '@/components/footer'
 
 export default function page() {
   return (
-    <div className='w-full flex flex-col items-center justify-center'>
+    <div className='w-full flex flex-col items-center justify-center overflow-hidden'>
       <Navbar />
       <Home />
       <Service />

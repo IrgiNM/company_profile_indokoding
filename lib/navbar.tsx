@@ -67,7 +67,7 @@ export default function Navbar() {
         },
     ]
   return (
-    <div className='flex flex-row justify-center items-center gap-4 pt-7 fixed top-0 w-full z-5'>
+    <div className='h-20 flex flex-row justify-center items-start gap-4 pt-7 fixed top-0 w-full z-5 bg-gradient-to-b from-white to-transparent'>
         {nav.map((x,y)=>(
             <NavLink key={y} warna={bgNav===x.isi ? x.active : x.warna} bg={x.bg} klik={x.link}>{x.isi}</NavLink>
         ))}
