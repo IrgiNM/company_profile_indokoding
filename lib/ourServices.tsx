@@ -60,8 +60,7 @@ export default function Service() {
         <h1 className='text-4xl text-[32px] font-bold tracking-wider text-[#005CB2]'>Our Services</h1>
         <div className='flex flex-row items-start justify-center gap-15 w-full p-5'>
             {services.map((service) => (
-                <div key={service.id}>
-                {/* {service.line && (<div className='w-[1px] h-[230px] bg-blue-500'></div>)} */}
+                <div className={service.id === 2 && "flex flex-row"} key={service.id}>
                 {service.id === 2 && <div className='w-0.5 h-[260px] bg-gray-300'></div>}
                 <div className={`${isAktif === "mobileApp" && service.id === 2 
                     ? "animate-spin" 
@@ -73,7 +72,6 @@ export default function Service() {
                 <ServiceCard id={service.id} title={service.title} warna={service.warna} description={service.description} />
                 </div>
                 {service.id === 2 && <div className='w-0.5 h-[260px] bg-gray-300'></div>}
-                {/* {service.line && (<div className='w-[1px] h-[230px] bg-blue-500'></div>)} */}
                 </div>
             ))}
         </div>
