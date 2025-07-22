@@ -1,6 +1,10 @@
+"use client";
 import NavLink from '@/components/navLink'
 import Home from '@/lib/home'
+import { BookOnline } from '@/lib/bookOnline';
 import Navbar from '@/lib/navbar'
+import Service from '@/lib/ourServices';
+
 import React from 'react'
 import Footer from '@/components/footer'
 import OurWork from '@/lib/ourWork'
@@ -11,7 +15,9 @@ export default function page() {
       <Navbar/>
       <Home/>
       <OurWork/>
-        <Footer />
+      <Service />
+      <BookOnline />
+      <Footer />
     </div>
   )
 }
