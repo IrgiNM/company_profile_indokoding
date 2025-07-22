@@ -54,9 +54,10 @@ export default function Service() {
 
   return (
     <>
-    <div className='flex flex-col items-center min-h-screen gap-2 mt-10'>
-        <p className='mt-25 text-[16px]'>what we do</p>
-        <h1 className='text-2xl text-[28px] font-extrabold tracking-wider text-[#005CB2]'>Our Services</h1>
+    <div className='flex flex-col relative items-center min-h-screen gap-2 mt-15'>
+        <img src="/assets/image/2line-yellow.png" alt="2line" className="absolute right-134 -top-6 w-10 h-10"/>
+        <p className='text-[16px]'>what we do</p>
+        <h1 className='text-4xl text-[32px] font-bold tracking-wider text-[#005CB2]'>Our Services</h1>
         <div className='flex flex-row items-start justify-center gap-15 w-full p-5'>
             {services.map((service) => (
                 <>
