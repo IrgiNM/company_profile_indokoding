@@ -6,6 +6,7 @@ import Navbar from '@/lib/navbar'
 import Service from '@/lib/ourServices';
 
 import React from 'react'
+import Footer from '@/components/footer'
 
 export default function page() {
   return (
@@ -14,6 +15,7 @@ export default function page() {
         <Service />
         <BookOnline />
       <Home />
+        <Footer />
     </div>
   )
 }
