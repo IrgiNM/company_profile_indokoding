@@ -8,6 +8,7 @@ import Service from '@/lib/ourServices';
 import React from 'react'
 import Footer from '@/components/footer'
 import OurWork from '@/lib/ourWork'
+import { Service2 } from '@/lib/ourServices2';
 
 export default function page() {
   return (
@@ -17,6 +18,7 @@ export default function page() {
       <OurWork/>
       <Service />
       <BookOnline />
+      <Service2 />
       <Footer />
     </div>
   )
