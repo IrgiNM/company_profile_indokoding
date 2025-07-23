@@ -61,7 +61,11 @@ export default function Service() {
         <h1 className='text-4xl font-extrabold tracking-wider text-[#005CB2]'>Our Services</h1>
         <div className='flex flex-row items-start justify-center gap-15 w-full p-5'>
             {services.map((service) => (
+<<<<<<< HEAD
                 <div className={service.id === 2 ? "flex flex-row" : undefined} key={service.id}>
+=======
+                <div className={service.id === 2 && "flex flex-row"} key={service.id}>
+>>>>>>> 1a102385d58d946a037ddf32cdbe794918844964
                 {service.id === 2 && <div className='w-0.5 h-[260px] bg-gray-300'></div>}
                 <div className={`${isAktif === "mobileApp" && service.id === 2 
                     ? "animate-spin" 
